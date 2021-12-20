@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App_Start",
+    "\\Migrations",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Home"
+  ],
+  "SelectedNode": "\\Migrations\\Configuration.cs",
+  "PreviewInSolutionExplorer": false
+}
