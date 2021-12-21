@@ -10,6 +10,7 @@ namespace MyBills.Models
         {
         }
         public DbSet<Bill> Bills { get; set; }
+        public DbSet<CostType> CostTypes { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
