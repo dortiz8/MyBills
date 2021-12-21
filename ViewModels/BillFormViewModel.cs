@@ -9,16 +9,17 @@ namespace MyBills.ViewModels
     public class BillFormViewModel
     {
         [Required]
-        public string BillName { get; set; }
+        public string Name { get; set; }
         [Required]
-        public double BillCost { get; set; }
+        public double Cost { get; set; }
         [Required]
-        public DateTime BillDate { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         //Records set or fluid (changing month/m) cost
-        public byte BillCostType { get; set; }
-
-        public IEnumerable<Models.CostType> BillCostTypes { get; set; }
+        public int Type { get; set; }
+        public int Category { get; set; }
+        public IEnumerable<Models.Category> Categories { get; set; }
+        public IEnumerable<Models.CostType> CostTypes { get; set; }
 
     }
 }

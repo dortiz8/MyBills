@@ -186,11 +186,24 @@
     <Compile Include="Migrations\202112211719108_CostTypeTable.Designer.cs">
       <DependentUpon>202112211719108_CostTypeTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112211745450_PopulateCostTypeTable.cs" />
+    <Compile Include="Migrations\202112211745450_PopulateCostTypeTable.Designer.cs">
+      <DependentUpon>202112211745450_PopulateCostTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112211843437_CategoryTable.cs" />
+    <Compile Include="Migrations\202112211843437_CategoryTable.Designer.cs">
+      <DependentUpon>202112211843437_CategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112211844565_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\202112211844565_PopulateCategoryTable.Designer.cs">
+      <DependentUpon>202112211844565_PopulateCategoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Bill.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\CostType.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -280,6 +293,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112211719108_CostTypeTable.resx">
       <DependentUpon>202112211719108_CostTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112211745450_PopulateCostTypeTable.resx">
+      <DependentUpon>202112211745450_PopulateCostTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112211843437_CategoryTable.resx">
+      <DependentUpon>202112211843437_CategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112211844565_PopulateCategoryTable.resx">
+      <DependentUpon>202112211844565_PopulateCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

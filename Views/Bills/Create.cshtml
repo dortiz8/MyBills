@@ -1,8 +1,30 @@
-﻿
+﻿@model MyBills.ViewModels.BillFormViewModel
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Create</h2>
+<h2>Add a New Bill</h2>
+<form>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Date)
+        @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Type)
+        @Html.DropDownListFor(m => m.Type, new SelectList(Model.CostTypes, "Id", "Label"), "", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cost)
+        @Html.TextBoxFor(m => m.Cost, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Category)
+        @Html.DropDownListFor(m => m.Type, new SelectList(Model.Categories, "Id", "Label"), "", new { @class = "form-control" })
+    </div>
+</form>
 

@@ -15,5 +15,9 @@ namespace MyBills.Models
         public double Cost { get; set; }
         [Required]
         public DateTime Date { get; set; }
+        [Required]
+        public int Type { get; set; }
+        [Required]
+        public int Category { get; set; }
     }
 }
