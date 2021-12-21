@@ -4,6 +4,10 @@
 
 /App_Data/aspnet-MyBills-20211220012036.mdf
 /Migrations/202112211719108_CostTypeTable.resx
+bin/
+obj/
+*.idf
+*.resx
 *.cache
 *.dll
 *.exe
