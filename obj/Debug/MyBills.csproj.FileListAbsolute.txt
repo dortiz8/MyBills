@@ -83,3 +83,6 @@ C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.csproj.CoreCompileInputs.
 C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.csproj.CopyComplete
 C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.dll
 C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.pdb
+C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.Migrations.InitialModel.resources
+C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.csproj.GenerateResource.cache
+C:\Users\dortiz\source\repos\MyBills\obj\Debug\MyBills.Migrations.BillTable.resources
